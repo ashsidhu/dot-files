@@ -46,5 +46,8 @@ tvim() {
   vim "$1"
 }
 
+# vim aliases
+alias vpi="vim +PluginInstall +qall"
+alias vpa="vim ~/.vimrc"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
